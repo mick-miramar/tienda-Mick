@@ -1,0 +1,153 @@
+body {
+  font-family: 'Segoe UI', Tahoma,
+    Geneva, Verdana, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+header,
+footer {
+  background-color: #232f3e;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 1em;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 1em;
+}
+
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.producto {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 1em;
+  padding: 1em;
+  text-align: center;
+  width: 220px;
+  transition: transform 0.2s;
+}
+
+.producto:hover {
+  transform: scale(1.05);
+}
+
+.producto img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.descripcion {
+  font-size: 0.9em;
+  color: #555;
+}
+
+.precio {
+  font-weight: bold;
+  color: #b12704;
+  margin: 0.5em 0;
+}
+
+.rating {
+  color: #ffa41c;
+  margin-bottom: 0.5em;
+}
+
+button {
+  background-color: #ffd814;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #f7ca00;
+}
+
+.ofertas {
+  margin-top: 2em;
+}
+
+.precio-oferta {
+  color: #b12704;
+  font-weight: bold;
+}
+
+.precio-oferta del {
+  color: #999;
+  margin-right: 0.5em;
+}
+
+.busqueda {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+#buscador {
+  width: 60%;
+  padding: 0.5em;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+#estilos adicionales para carrito .cantidad-controles {
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+  margin-top: 0.5em;
+}
+
+.cantidad-controles button {
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  padding: 0.2em 0.6em;
+  border-radius: 4px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.cantidad-controles span {
+  min-width: 20px;
+  text-align: center;
+  display: inline-block;
+}
+
+.btn-confirmar {
+  background-color: #2e7d32;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 0.8em 1.5em;
+  margin-top: 1em;
+  border-radius: 8px;
+  float: right;
+  cursor: pointer;
+}
