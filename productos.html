@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Productos - Mi Tienda Real</title>
+  <link rel="stylesheet" href="css/estilos.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Mi Tienda Real</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="carrito.html">Carrito</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="productos">
+      <!-- Producto con imagen, nombre, precio, rating y botón -->
+      <figure class="producto">
+        <img src="https://via.placeholder.com/200x200" alt="Audífonos inalámbricos" />
+        <figcaption>
+          <h3 class="nombre">Audífonos inalámbricos</h3>
+          <p class="descripcion">Alta fidelidad de sonido con cancelación de ruido.</p>
+          <p class="precio">$999.00</p>
+          <p class="rating">⭐⭐⭐⭐☆</p>
+          <button onclick="agregarAlCarrito('Audífonos inalámbricos', 999, 'imagenes/cel0.webp')">Agregar al
+            carrito</button>
+        </figcaption>
+      </figure>
+
+      <figure class="producto">
+        <img src="https://via.placeholder.com/200x200" alt="Smartwatch deportivo" />
+        <figcaption>
+          <h3 class="nombre">Smartwatch deportivo</h3>
+          <p class="descripcion">Monitorea tu salud y actividad física con estilo.</p>
+          <p class="precio">$1,499.00</p>
+          <p class="rating">⭐⭐⭐⭐⭐</p>
+          <button onclick="agregarAlCarrito('Smartwatch deportivo', 1499)">Agregar al carrito</button>
+        </figcaption>
+      </figure>
+      <figure class="producto">
+        <img src="https://via.placeholder.com/200x200" alt="Smartwatch deportivo" />
+        <figcaption>
+          <h3 class="nombre">AUTO</h3>
+          <p class="descripcion">Monitorea tu salud y actividad física con estilo.</p>
+          <p class="precio">$1,499.00</p>
+          <p class="rating">⭐⭐⭐⭐⭐</p>
+          <button onclick="agregarAlCarrito('Smartwatch deportivo', 1499)">Agregar al carrito</button>
+        </figcaption>
+      </figure>
+      <figure class="producto">
+        <img src="https://via.placeholder.com/200x200" alt="Smartwatch deportivo" />
+        <figcaption>
+          <h3 class="nombre">MEsa</h3>
+          <p class="descripcion">Monitorea tu salud y actividad física con estilo.</p>
+          <p class="precio">$1,499.00</p>
+          <p class="rating">⭐⭐⭐⭐⭐</p>
+          <button onclick="agregarAlCarrito('Smartwatch deportivo', 1499)">Agregar al carrito</button>
+        </figcaption>
+      </figure>
+      <figure class="producto">
+        <img src="https://via.placeholder.com/200x200" alt="Smartwatch deportivo" />
+        <figcaption>
+          <h3 class="nombre">TV</h3>
+          <p class="descripcion">Monitorea tu salud y actividad física con estilo.</p>
+          <p class="precio">$1,499.00</p>
+          <p class="rating">⭐⭐⭐⭐⭐</p>
+          <button onclick="agregarAlCarrito()">Agregar al carrito</button>
+        </figcaption>
+      </figure>
+      <figure class="producto">
+        <img src="https://via.placeholder.com/200x200" alt="Smartwatch deportivo" />
+        <figcaption>
+          <h3 class="nombre">Lap</h3>
+          <p class="descripcion">Monitorea tu salud y actividad física con estilo.</p>
+          <p class="precio">$1,499.00</p>
+          <p class="rating">⭐⭐⭐⭐⭐</p>
+          <button onclick="agregarAlCarrito('Smartwatch deportivo', 1499)">Agregar al carrito</button>
+        </figcaption>
+      </figure>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Mi Tienda Real</p>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
